@@ -26,5 +26,9 @@ public class Demo
 	{
 	System.out.println("This is Demo Class");	
 		System.out.println("This is main Method");
+
+		Demo d=new Demo();
+		d.m1();
+		d.m2();
 	}
 }
